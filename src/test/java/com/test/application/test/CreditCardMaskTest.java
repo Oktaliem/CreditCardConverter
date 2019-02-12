@@ -24,8 +24,8 @@ public class CreditCardMaskTest {
         expected = "xxxxxxxxxxxx0777";
         result = application.maskCreditCardNumber(number, mask);
         Assert.assertEquals(expected, result);
-        System.out.println("Credit Card Number before musking: "+number);
-        System.out.println("Credit Card Number after musking: "+result);
+        System.out.println("Credit Card Number before masking: "+number);
+        System.out.println("Credit Card Number after masking: "+result);
     }
 
     @Test
@@ -35,8 +35,8 @@ public class CreditCardMaskTest {
         expected = "5275-3301-9214-5447";
         result = application.maskCreditCardNumber(number, mask);
         Assert.assertEquals(expected, result);
-        System.out.println("Credit Card Number before musking: "+number);
-        System.out.println("Credit Card Number after musking: "+result);
+        System.out.println("Credit Card Number before masking: "+number);
+        System.out.println("Credit Card Number after masking: "+result);
     }
 
     @Test
@@ -46,8 +46,8 @@ public class CreditCardMaskTest {
         expected = "xxxx-xxxx-xxxx-0777";
         result = application.maskCreditCardNumber(number, mask);
         Assert.assertEquals(expected, result);
-        System.out.println("Credit Card Number before musking: "+number);
-        System.out.println("Credit Card Number after musking: "+result);
+        System.out.println("Credit Card Number before masking: "+number);
+        System.out.println("Credit Card Number after masking: "+result);
     }
 
     @Test
@@ -57,8 +57,8 @@ public class CreditCardMaskTest {
         expected = "xxxx-4635-xxxx-xxxx";
         result = application.maskCreditCardNumber(number, mask);
         Assert.assertEquals(expected, result);
-        System.out.println("Credit Card Number before musking: "+number);
-        System.out.println("Credit Card Number after musking: "+result);
+        System.out.println("Credit Card Number before masking: "+number);
+        System.out.println("Credit Card Number after masking: "+result);
     }
 
     @Test
@@ -68,8 +68,8 @@ public class CreditCardMaskTest {
         expected = "5327";
         result = application.maskCreditCardNumber(number, mask);
         Assert.assertEquals(expected, result);
-        System.out.println("Credit Card Number before musking: "+number);
-        System.out.println("Credit Card Number after musking: "+result);
+        System.out.println("Credit Card Number before masking: "+number);
+        System.out.println("Credit Card Number after masking: "+result);
     }
 
     @Test
@@ -79,8 +79,8 @@ public class CreditCardMaskTest {
         expected = "Invalid Request : Mask is Empty";
         result = application.maskCreditCardNumber(number, mask);
         Assert.assertEquals(expected, result);
-        System.out.println("Credit Card Number before musking: "+number);
-        System.out.println("Credit Card Number after musking: "+result);
+        System.out.println("Credit Card Number before masking: "+number);
+        System.out.println("Credit Card Number after masking: "+result);
     }
 
     //This test is intended to fail
@@ -91,7 +91,7 @@ public class CreditCardMaskTest {
         expected = "Number is Empty";
         result = application.maskCreditCardNumber(number, mask);
         Assert.assertEquals(expected, result);
-        System.out.println("Credit Card Number before musking: "+number);
-        System.out.println("Credit Card Number after musking: "+result);
+        System.out.println("Credit Card Number before masking: "+number);
+        System.out.println("Credit Card Number after masking: "+result);
     }
 }

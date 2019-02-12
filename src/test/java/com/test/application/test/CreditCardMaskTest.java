@@ -1,6 +1,6 @@
-package com.kredivo.application.test;
+package com.test.application.test;
 
-import com.kredivo.application.CreditCardMaskApplication;
+import com.test.application.CreditCardMaskApplication;
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
 import org.junit.Test;

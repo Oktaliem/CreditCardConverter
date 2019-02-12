@@ -1,4 +1,4 @@
-package com.kredivo.application;
+package com.test.application;
 
 public class CreditCardMaskApplication {
 

@@ -1,13 +1,8 @@
 package com.test.application;
 
 public class CreditCardMaskApplication {
-
-    public CreditCardMaskApplication() {
-    }
-
     /**
      * Assumption of Requirements :
-     *
      * @param number is a field that only can be entered by number and it has 16 Digits only, The validation for number format & Digits are on UI level.
      * @param mask   is a drop down list that only has certain value (i.e "xxxxxxxxxxxx####","####-####-####-####", etc). The value is defined.
      */
